@@ -23,6 +23,6 @@ setup(
     ext_modules=ext_modules,
     extras_require={'test': 'pytest'},
     cmdclass={'build_ext': build_ext},
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     zip_safe=False
 )
