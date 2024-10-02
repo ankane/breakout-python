@@ -10,4 +10,4 @@ publish: clean build
 	twine upload dist/*.tar.gz
 
 clean:
-	rm -rf .pytest_cache build dist breakout_detection.egg-info
+	rm -rf .pytest_cache dist breakout_detection.egg-info
