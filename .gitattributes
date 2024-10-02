@@ -1,2 +1,2 @@
-src/edm* linguist-vendored
-src/helper* linguist-vendored
+breakout/edm* linguist-vendored
+breakout/helper* linguist-vendored
