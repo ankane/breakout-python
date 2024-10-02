@@ -4,7 +4,7 @@ from pybind11 import get_cmake_dir
 from setuptools import setup
 
 ext_modules = [
-    Pybind11Extension('breakout', sorted(glob.glob('src/*.cpp')))
+    Pybind11Extension('breakout', sorted(glob.glob('breakout/*.cpp')))
 ]
 
 setup(

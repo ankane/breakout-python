@@ -15,3 +15,6 @@ requires-python = ">= 3.8"
 
 [project.urls]
 Homepage = "https://github.com/ankane/breakout-python"
+
+[tool.setuptools.package-data]
+breakout = ["*.h"]

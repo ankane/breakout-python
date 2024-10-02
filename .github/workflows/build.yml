@@ -10,5 +10,5 @@ jobs:
           python-version: 3.12
       - run: pip install setuptools
       - run: pip install -r requirements.txt
-      - run: python setup.py install
+      - run: pip install -e .
       - run: pytest
