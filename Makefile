@@ -8,4 +8,4 @@ publish: clean
 	make clean
 
 clean:
-	rm -rf .pytest_cache build dist breakout_detection.egg-info
+	rm -rf .pytest_cache build dist src/breakout_detection.egg-info

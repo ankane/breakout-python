@@ -1,8 +1,17 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel",
-    "pybind11>=2.7.0",
-]
-
+requires = ["setuptools", "pybind11"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "breakout-detection"
+version = "0.2.0"
+description = "Breakout detection for Python"
+readme = "README.md"
+authors = [
+    {name = "Andrew Kane", email = "andrew@ankane.org"}
+]
+license = {text = "GPL-2.0-or-later"}
+requires-python = ">= 3.8"
+
+[project.urls]
+Homepage = "https://github.com/ankane/breakout-python"
