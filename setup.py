@@ -1,6 +1,5 @@
 import glob
 from pybind11.setup_helpers import Pybind11Extension, build_ext
-from pybind11 import get_cmake_dir
 from setuptools import setup
 
 ext_modules = [
