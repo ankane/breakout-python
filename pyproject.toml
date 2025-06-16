@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     {name = "Andrew Kane", email = "andrew@ankane.org"}
 ]
-license = {text = "GPL-2.0-or-later"}
+license = "GPL-2.0-or-later"
 requires-python = ">= 3.8"
 
 [project.urls]
