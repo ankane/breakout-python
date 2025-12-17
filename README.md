@@ -68,7 +68,7 @@ To get started with development:
 ```sh
 git clone https://github.com/ankane/breakout-python.git
 cd breakout-python
-pip install -r requirements.txt
+pip install --group dev
 pip install -e .
 pytest
 ```

@@ -18,3 +18,9 @@ Homepage = "https://github.com/ankane/breakout-python"
 
 [tool.setuptools.package-data]
 breakout = ["*.h"]
+
+[dependency-groups]
+dev = [
+    "pybind11",
+    "pytest"
+]
