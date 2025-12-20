@@ -5,4 +5,5 @@ venv/
 .cache/
 *.pyc
 __pycache__
+*.lock
 *.so
