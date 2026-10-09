@@ -1,3 +1,7 @@
+## 0.3.0 (unreleased)
+
+- Dropped support for Python < 3.11
+
 ## 0.2.0 (2024-06-30)
 
 - Dropped support for Python < 3.8
